@@ -1,0 +1,24 @@
+[33mef947e7[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/prediccion-financiera[m[33m, [m[1;31morigin/main[m[33m, [m[1;32mprediccion-financiera[m[33m)[m Añadida predicción financiera con regresión lineal
+ .../__pycache__/obtener_datos.cpython-313.pyc      | Bin [31m0[m -> [32m1185[m bytes
+ analisis_financiero/graficos.py                    |  21 [32m+++++++++++++[m
+ analisis_financiero/main.py                        |   0
+ analisis_financiero/obtener_datos.py               |  20 [32m+++++++++++++[m
+ analisis_financiero/prediccion.py                  |  24 [32m+++++++++++++++[m
+ analisis_financiero/prediccion_finanzas.py         |  33 [32m+++++++++++++++++++++[m
+ prediccion.py                                      |   0
+ 7 files changed, 98 insertions(+)
+[33m4282838[m Añadir análisis de tasas y datos en tiempo real
+ analisis_tasas.py         |  26 [32m++++++++++++++++++++++++++[m
+ analisis_tasas_backup.py  |  25 [32m+++++++++++++++++++++++++[m
+ datos.py                  |  26 [32m++++++++++++++++++++++++++[m
+ grafico_tasas_interes.png | Bin [31m0[m -> [32m147151[m bytes
+ tasas_interes.txt         |   2 [31m--[m
+ tasas_interes_api.csv     |  29 [32m+++++++++++++++++++++++++++++[m
+ tasas_interes_nuevo.csv   |   4 [32m++++[m
+ 7 files changed, 110 insertions(+), 2 deletions(-)
+[33m1ed26c1[m Actualizando tasas de interés
+ tasas_interes.txt | 1 [32m+[m
+ 1 file changed, 1 insertion(+)
+[33mae1c3ab[m Añadido archivo de tasas de interés
+ tasas_interes.txt | 1 [32m+[m
+ 1 file changed, 1 insertion(+)
